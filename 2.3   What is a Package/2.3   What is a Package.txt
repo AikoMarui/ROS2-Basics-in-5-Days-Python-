@@ -1,0 +1,28 @@
+2.3   What is a Package?
+ROS 2 uses packages to organize its programs. You can think of a package as a collection of all the files related to a specific ROS 2 program; all its CPP files, Python files, configuration files, compilation files, launch files, and parameters files. Also, organizing your ROS 2 programs in packages makes sharing them with other developers/users much easier.
+
+In ROS2, you can create two types of packages:
+
+Python packages
+CMake (C++) packages
+For this course, we will focus on the first type. Python packages will contain Python executables.
+
+Every Python package will have the following structure of files and folders:
+
+package.xml - File containing meta-information about the package (maintainer of the package, dependencies, etc.).
+
+setup.py - File containing instructions for how to compile the package.
+
+setup.cfg - Contains instructions for how to install the package.
+
+src/\<package_name> - This directory is named after your package. You will put all your Python scripts inside this folder. It already contains an empty __init__.py file by default.
+
+Some packages might contain extra folders. For instance, the launch folder contains the package's launch files (you will read more about it later).
+
+To summarize, you should remember the following:
+
+Every ROS2 program that you want to execute is organized into a package.
+
+Every ROS2 program you create must be organized in a package.
+
+Packages are the primary way to organize for ROS2 programs.
