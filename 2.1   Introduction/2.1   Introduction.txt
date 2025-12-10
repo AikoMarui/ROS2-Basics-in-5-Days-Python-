@@ -1,7 +1,0 @@
-It’s possible you took this course to answer this question: "What is ROS 2?"
-
-For now, however, it will be more helpful to experience what ROS 2 can do for you!
-
-In this unit, you will be introduced to the foundational concepts of ROS 2. You will learn how to structure and launch ROS 2 programs using packages and launch files, as well as how to create basic ROS 2 programs using Python. Additionally, you will explore essential ROS 2 concepts such as nodes, client libraries, and more.
-
-By the end of this unit, you will have a solid understanding of how ROS 2 programs are organized and executed and you will be ready to answer the key question... What is ROS 2?
